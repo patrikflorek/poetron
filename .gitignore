@@ -1,0 +1,10 @@
+data/full_length/
+data/books_txt.zip
+data/chunked/
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.env
+venv/
