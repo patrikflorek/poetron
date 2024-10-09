@@ -142,13 +142,13 @@ def print_stats(counts):
     print(f"\nTotal word counts: {total_word_counts}")
     print(f"Total token counts: {total_token_counts}")
 
-    print("\nTop 5 poems by token count:")
+    print("\nTop 5 poems by word and token count:")
     for (book, poem), (word_count, token_count) in sorted(
         counts.items(), key=lambda x: x[1], reverse=True
     )[:5]:
         print(f"  {book} - {poem}: {word_count} words and {token_count} tokens")
 
-    print("\nBottom 5 files by token count:")
+    print("\nBottom 5 poems by word and token count:")
     for (book, poem), (word_count, token_count) in sorted(
         counts.items(), key=lambda x: x[1]
     )[:5]:
