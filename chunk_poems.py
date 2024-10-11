@@ -325,7 +325,7 @@ def save_chunked(splits):
             os.path.join(FULL_LENGTH_DATA_DIR, book_name, poem_filename), "r"
         ).readlines()
         for i, (start, end) in enumerate(chunks):
-            chunk_filename = f"{poem_name}_{i}.txt"
+            chunk_filename = f"{poem_name}_{i:02d}.txt"
             print(f" - creating chunk {i} filename {chunk_filename}")
             with open(
                 os.path.join(CHUNKED_DATA_DIR, book_name, chunk_filename), "w"
