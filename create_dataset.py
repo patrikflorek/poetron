@@ -163,7 +163,7 @@ def save_dataset():
                 ) as f:
                     prepended_poem_chunk = "[POH] " + f.read()
                     zipf.writestr(
-                        f"{split}/{book} - {chunk_filename}", prepended_poem_chunk
+                        f"{split}/{book}/{chunk_filename}", prepended_poem_chunk
                     )
 
 
