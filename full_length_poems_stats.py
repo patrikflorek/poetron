@@ -31,7 +31,7 @@ def main():
     # Download and extract the books archive if not already present
     if not os.path.exists(BOOKS_ZIP):
         urllib.request.urlretrieve(
-            "https://raw.githubusercontent.com/patrikflorek/hviezdoslav/master/books_txt.zip",
+            "https://raw.githubusercontent.com/patrikflorek/hviezdoslav/main/books_txt.zip",
             BOOKS_ZIP,
         )
 

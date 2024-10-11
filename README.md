@@ -1,3 +1,5 @@
+![Poetron Logo](poetron_logo.png)
+
 # Poetron
 
 This repository contains the dataset and code for fine-tuning the [Slovak GPT-J-405M](https://huggingface.co/Milos/slovak-gpt-j-405M) model to generate poems in the style of the Slovak poet [Pavol Országh Hviezdoslav](https://en.wikipedia.org/wiki/Pavol_Orsz%C3%A1gh_Hviezdoslav).
